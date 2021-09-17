@@ -1,12 +1,8 @@
 import express from 'express';
-import { sequelize } from './sequelize';
 import bodyParser from 'body-parser';
 import { IndexRouter } from '../src/routes/index.router';
-import { User } from './controllers/v0/users/models/User';
 
 (async () => {
-  await sequelize.addModels([User]);
-  await sequelize.sync();
   // Init the Express application
   const app = express();
 
