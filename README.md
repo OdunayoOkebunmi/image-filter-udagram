@@ -14,5 +14,7 @@ You'll need to create a new node server. Open a new terminal within the project 
 
 ### Deploying to cloud
 The project was deployed using AWS Elastic Beanstalk
+
 Link- http://mage-filter-starter-code-dev-dev.us-east-1.elasticbeanstalk.com/
+
 Test with - http://mage-filter-starter-code-dev-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://i.pinimg.com/736x/c9/8f/e1/c98fe17dc7de72bb29c34a0c79ef5762.jpg
