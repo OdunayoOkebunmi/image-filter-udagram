@@ -4,7 +4,7 @@
   "description": "",
   "main": "www/server.js",
   "scripts": {
-    "start": "node www/server.js",
+    "start": "node ./www/server.js",
     "tsc": "tsc",
     "dev": "ts-node-dev ./src/server.ts",
     "prod": "tsc && node ./www/server.js",
